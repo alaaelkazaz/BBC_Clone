@@ -1,0 +1,169 @@
+body{
+ margin:0;
+    font-family: font-family:arial ,helvetica,freesans,sans-serif;
+}
+.top-bar{
+  background-color: white;
+  width:100%;
+  height:40px;
+  color:black;
+  padding-top:5px;
+}
+#search-box{
+  float : left;
+  padding :10 px ;
+  width:200 px;
+}
+#search-box input {
+  float: left;
+  padding: 10px ;
+  padding-top:0px;
+  background-image: url('https://nav.files.bbci.co.uk/searchbox/cf49ecd101e2226ed21fb1f49d39c62f/img/gel-icon-search-dark.svg ');
+  
+   background-repeat:no-repeat;
+  background-position: right-center;
+}
+.top-bar ul {
+ margin :0;
+  padding :0;
+}
+.top-bar ul li {
+  float : left;
+  list-style:none;
+  border-right: 1px solid black;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom: 6 px;
+  padding-top: 6 px;
+  font-weight:bold;
+}
+.news-bar{
+  background-color:#861818;
+  width:100%;
+  height:60px;
+  color:white;
+}
+.news-bar p{
+  padding:0;
+  margin:0;
+  font-size:2.5em;
+  font-family:Arial;
+  position:relative ;
+  right:2px;
+}
+/* centers in the middle */
+.fixed-width{
+  width:1000px;
+  margin : 0 auto;
+}
+
+#logo{
+  float : left;
+  padding-right:10px;
+  padding-bottom: 5px;
+  padding-top:5px;
+  border-right: 1px  solid black;
+}
+#sign-in{
+  float : left;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding-left:10px;
+  padding-right:60px;
+  padding-bottom: 6 px;
+  padding-top: 6 px;
+  border-right: 1px solid black;
+  
+  
+}
+
+.catego-bar{
+  background-color:#BB1919;
+  width:100%;
+  height:30px;
+  color:white;
+}
+.catego-bar ul{
+  margin:0;
+  padding:0;
+}
+.catego-bar ul li{
+   float : left;
+  list-style:none;
+  border-right: 1px solid black;
+  padding-left:10px;
+  padding-right:12px;
+  padding-bottom: 12 px;
+  padding-top: 3px;
+  font-size:.9em;
+  font-family: arial;
+  position: relative;
+  right:10px;
+  top:6px;
+  down:2px;
+}
+.location-bar{
+  background-color:white;
+  width:100%;
+  height:40px;
+  color:black;
+}
+.location-bar ul{
+  margin:0;
+  padding:0;
+}
+#bold{
+  font-weight:bold;
+  font-size: 1em;
+}
+.location-bar ul li {
+  float : left;
+  list-style: none;
+  border-right: 1px solid black;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom: 9 px;
+  padding-top: 3 px;
+  font-size:.8em;
+  font-family: arial;
+  position: relative;
+  right:10px;
+  top:6px;
+  down:2px;
+}
+.content{
+  background-color:white;
+  width:100%;
+  color:#000000;
+  font-family:serif;
+}
+.content a{
+  text-decoration:none;
+}
+#img1{
+  float: right;
+  width:250px; 
+}
+#para{
+  margin:15px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom: 10 px;
+  padding-top: 10 px;
+  width:1000px;
+}
+
+.watch{
+  float:right;
+  position: relative;
+  bottom:430px;
+  right:500px;
+  
+}
+.watch h2{
+  font-family:arial;
+  font-weight:100;
+  border-left: 1px solid black;
+  padding-left:10px;
+  margin:0;
+}
